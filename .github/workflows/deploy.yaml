@@ -9,7 +9,7 @@ on:
 env:
   DOCKER_BUILDKIT: 1
   TEST_TAG: ${{ secrets.DOCKERHUB_USERNAME }}/simple-docker-compose-test:test
-  LATEST_TAG: ${{ secrets.DOCKERHUB_USERNAME}}/simple-docker:latest
+  LATEST_TAG: ${{ secrets.DOCKERHUB_USERNAME}}/simple-docker-compose:latest
 
 # https://docs.docker.com/build/ci/github-actions/test-before-push/
 jobs:
